@@ -70,6 +70,7 @@
     
 }
 
+//Find record code
 - (IBAction)findButtonTapped:(id)sender
 {
     NSManagedObjectContext *context = [APPDELEGATE managedObjectContext];
