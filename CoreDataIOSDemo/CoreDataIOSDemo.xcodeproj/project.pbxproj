@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C61F9B3E199CE7AB00AB2CF7 /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F9B3D199CE7AB00AB2CF7 /* UserListViewController.m */; };
 		C6C76CF7199C8C3700F61FA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C76CF6199C8C3700F61FA6 /* Foundation.framework */; };
 		C6C76CF9199C8C3700F61FA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C76CF8199C8C3700F61FA6 /* CoreGraphics.framework */; };
 		C6C76CFB199C8C3700F61FA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C76CFA199C8C3700F61FA6 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C61F9B3C199CE7AB00AB2CF7 /* UserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListViewController.h; sourceTree = "<group>"; };
+		C61F9B3D199CE7AB00AB2CF7 /* UserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListViewController.m; sourceTree = "<group>"; };
 		C6C76CF3199C8C3700F61FA6 /* CoreDataIOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataIOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C76CF6199C8C3700F61FA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C6C76CF8199C8C3700F61FA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +131,8 @@
 				C6C76D2B199C8FD400F61FA6 /* UserInfoViewController.h */,
 				C6C76D2C199C8FD400F61FA6 /* UserInfoViewController.m */,
 				C6C76D2D199C8FD400F61FA6 /* UserInfoViewController.xib */,
+				C61F9B3C199CE7AB00AB2CF7 /* UserListViewController.h */,
+				C61F9B3D199CE7AB00AB2CF7 /* UserListViewController.m */,
 			);
 			path = CoreDataIOSDemo;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6C76D09199C8C3700F61FA6 /* AppDelegate.m in Sources */,
+				C61F9B3E199CE7AB00AB2CF7 /* UserListViewController.m in Sources */,
 				C6C76D2E199C8FD400F61FA6 /* UserInfoViewController.m in Sources */,
 				C6C76D05199C8C3700F61FA6 /* main.m in Sources */,
 				C6C76D0C199C8C3700F61FA6 /* CoreDataIOSDemo.xcdatamodeld in Sources */,
@@ -459,6 +465,7 @@
 				C6C76D27199C8C3700F61FA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6C76D28199C8C3700F61FA6 /* Build configuration list for PBXNativeTarget "CoreDataIOSDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +474,7 @@
 				C6C76D2A199C8C3700F61FA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
