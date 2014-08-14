@@ -70,6 +70,7 @@
     
 }
 
+#pragma mark Find Button with core data
 //Find record code
 - (IBAction)findButtonTapped:(id)sender
 {
