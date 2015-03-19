@@ -10,29 +10,29 @@
 	<string>CoreDataIOSDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>40A321A1-8ED4-43F2-9292-43F571F6415A</key>
+		<key>C48B53B25426D4D218BF3F592E5073243DC045AD</key>
 		<string>ssh://github.com/rohitdhiman/iosCoreData.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>CoreDataIOSDemo/CoreDataIOSDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>40A321A1-8ED4-43F2-9292-43F571F6415A</key>
+		<key>C48B53B25426D4D218BF3F592E5073243DC045AD</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/rohitdhiman/iosCoreData.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>40A321A1-8ED4-43F2-9292-43F571F6415A</string>
+	<string>C48B53B25426D4D218BF3F592E5073243DC045AD</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>40A321A1-8ED4-43F2-9292-43F571F6415A</string>
+			<string>C48B53B25426D4D218BF3F592E5073243DC045AD</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iosCoreData</string>
 		</dict>
