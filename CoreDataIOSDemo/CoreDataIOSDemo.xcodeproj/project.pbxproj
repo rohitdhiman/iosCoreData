@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		407C79D31ABAE6920012002A /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 407C79D21ABAE6920012002A /* UserModel.m */; };
 		C61F9B3E199CE7AB00AB2CF7 /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F9B3D199CE7AB00AB2CF7 /* UserListViewController.m */; };
 		C6C76CF7199C8C3700F61FA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C76CF6199C8C3700F61FA6 /* Foundation.framework */; };
 		C6C76CF9199C8C3700F61FA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C76CF8199C8C3700F61FA6 /* CoreGraphics.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		407C79D11ABAE6920012002A /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		407C79D21ABAE6920012002A /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		C61F9B3C199CE7AB00AB2CF7 /* UserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListViewController.h; sourceTree = "<group>"; };
 		C61F9B3D199CE7AB00AB2CF7 /* UserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListViewController.m; sourceTree = "<group>"; };
 		C6C76CF3199C8C3700F61FA6 /* CoreDataIOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataIOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		407C79D01ABAE66C0012002A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				407C79D11ABAE6920012002A /* UserModel.h */,
+				407C79D21ABAE6920012002A /* UserModel.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		C6C76CEA199C8C3700F61FA6 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +135,7 @@
 		C6C76CFE199C8C3700F61FA6 /* CoreDataIOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				407C79D01ABAE66C0012002A /* Utility */,
 				C6C76D07199C8C3700F61FA6 /* AppDelegate.h */,
 				C6C76D08199C8C3700F61FA6 /* AppDelegate.m */,
 				C6C76D0D199C8C3700F61FA6 /* Images.xcassets */,
@@ -264,6 +277,7 @@
 			files = (
 				C6C76D09199C8C3700F61FA6 /* AppDelegate.m in Sources */,
 				C61F9B3E199CE7AB00AB2CF7 /* UserListViewController.m in Sources */,
+				407C79D31ABAE6920012002A /* UserModel.m in Sources */,
 				C6C76D2E199C8FD400F61FA6 /* UserInfoViewController.m in Sources */,
 				C6C76D05199C8C3700F61FA6 /* main.m in Sources */,
 				C6C76D0C199C8C3700F61FA6 /* CoreDataIOSDemo.xcdatamodeld in Sources */,
